@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <header>
+     <img src="https://img.freepik.com/free-vector/coffee-shop-badge-vintage-style_1176-95.jpg?size=626&ext=jpg" alt="" class="logo">
+  <div class="square">
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Products</a></li>
+            <li><a href="order.html">Order</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="text product">
+    <h1>Coffee Shop</h1>
+    <p><span>Phone Number:</span>044-324-444</p>
+    <p><span>Address:</span> Prishtinë, Kosovë</p>
+    <p><span>Working Hours: </span>8am -2am</p>
+    
+  </div>
+
+  <div class="orderproduct">
+  <div class="containerbox">
+    <div class="title">
+        <h2>Product Order</h2>
+    </div>
+  <div class="d-flex">
+    <form action="" method="">
+      <label>
+        <span class="fname">First Name <span class="required">*</span></span>
+        <input type="text" name="fname">
+      </label>
+      <label>
+        <span class="lname">Last Name <span class="required">*</span></span>
+        <input type="text" name="lname">
+      </label>
+      <label>
+        <span>Street Address <span class="required">*</span></span>
+        <input type="text" name="houseadd"  required>
+      </label>
+      <label>
+        
+        <span>Town / City <span class="required">*</span></span>
+        <input type="text" name="city"> 
+      </label>
+      <label>
+        <span>Phone <span class="required">*</span></span>
+        <input type="tel" name="number"> 
+      </label>
+      <label>
+        <span>Email Address <span class="required">*</span></span>
+        <input type="email" name="email"> 
+      </label>
+    </form>
+    <div class="Yorder">
+      <table>
+        <tr>
+          <th colspan="2">Your order</th>
+        </tr>
+        <tr>
+          <td>Lemonade x 2(Blueberry)</td>
+          <td>$6.00</td>
+        </tr>
+        <tr>
+          <td>Subtotal</td>
+          <td>$12.00</td>
+        </tr>
+        <tr>
+          <td>Shipping</td>
+          <td>Free shipping</td>
+        </tr>
+      </table><br>
+      <div>
+        <input type="radio" name="dbt" value="dbt" checked> Direct Bank Transfer
+      </div>
+      <div>
+        <input type="radio" name="dbt" value="cd"> Cash on Delivery
+      </div>
+      <div>
+        <input type="radio" name="dbt" value="cd"> Paypal <span>
+        <img src="https://www.logolynx.com/images/logolynx/c3/c36093ca9fb6c250f74d319550acac4d.jpeg" alt="" width="50">
+        </span>
+      </div>
+      <button type="button">Place Order</button>
+    </div>
+   </div>
+  </div>
+</div>
+</body>
+</html>
